@@ -2,9 +2,10 @@
 <html>
 <html lang="en" dir="ltr">
 <head>
-	<meta charset="utf-8">
+        <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Rodelio's Kitchen</title>
-
+	<link rel="stylesheet" href="">
 	<style>
 
 		body {
@@ -80,11 +81,6 @@
 		form, input[type="button"]:hover{background-color: green;}
 
 	</style>
-
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Rodelio's Kitchen</title>
-	<link rel="stylesheet" href="">
 </head>
 <body>
 
