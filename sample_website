@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<style>
+
+		body {
+			  font-family: latha;
+			  color: white;
+			  background: linear-gradient(
+			  rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.38),rgba(0, 0, 0, 0))
+			  ,url('Image/rodpic.jpg')no-repeat;
+			  background-size: cover;
+		}
+		
+		.box { width: 900px;
+			   float: right;
+			   border: 1px solid none;
+
+		}
+
+		.box ul li {
+			        width: 120px;
+			        float: left;
+			        margin: 10px auto;
+			        text-align: center;
+		}
+
+		.box ul li a {text-decoration: none;
+			          color: darkgray;
+
+		}
+
+		.box ul li:hover {background-color: green;
+		}
+
+		.box ul li a:hover {color: white;}
+
+		.wd {
+			width: 300px;
+			height: 539px;
+			background-color: black;
+			opacity: 0.9;
+			padding: 55px;
+		}
+
+		.wd h1 {
+			   text-align: center;
+			   text-transform: uppercase;
+			   font-weight: 100;
+
+		}
+
+		.wd h4 {
+			   text-align: justify;
+			   color: darkgray;
+			   font-weight: normal;
+		}
+
+		.wd h2 {
+			   text-align: center;
+			   text-transform: uppercase;
+			   font-weight: normal;
+			   margin: 40px;
+		}
+
+		.opt form , input[type="button"]{
+			background-color: black;
+			color: white;
+			padding: 10px;
+			margin: -14px auto;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+		}
+
+		form, input[type="button"]:hover{background-color: green;}
+
+	</style>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Rodelio's Kitchen</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	 <div class="box">
+
+	 	<ul type="none">
+	 		<li><a href="home.html">Home</a></li>
+	 		<li><a href="https://www.delish.com/cooking/menus/">Menu</a></li>
+	 		<li><a href="onlineorder.html">Online Order</a></li>
+	 		<li><a href="picture.html">Pictures</a></li>
+	 		<li><a href="videos.html">Videos</a></li>
+	 		<li><a href="contact.html">Contact</a></li>
+	 	</ul>
+	 	
+	 </div>
+
+	 <div class="wd">
+
+	 	<h1>Welcome</h1>
+	 	<h4>Hi! My name is Rodelio S. Dahunos, I am here to assist your order through my sample website in my subject in website development. It's my great pleasure to serve you.</h4>
+	 	<h2>Reservation</h2>
+	 	<div class="opt">
+	 		<form action="" method="post">
+	 			
+	 			<a href="https://www.facebook.com/rodelio.dahunos"><input type="button"value="Starter Now"></a>
+	 			
+	 			
+	 		</form>
+	 		
+	 	</div>
+	 </div>
+	
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+
+  <style>
+
+    body {
+        font-family: latha;
+        color: white;
+        background: linear-gradient(
+        rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.38),rgba(0, 0, 0, 0))
+        ,url('Image/rodpic.jpg')no-repeat;
+        background-size: cover;
+    }
+    
+    .box { width: 900px;
+         float: right;
+         border: 1px solid none;
+
+    }
+
+    .box ul li {
+              width: 120px;
+              float: left;
+              margin: 10px auto;
+              text-align: center;
+    }
+
+    .box ul li a {text-decoration: none;
+                color: darkgray;
+
+    }
+
+    .box ul li:hover {background-color: green;
+    }
+
+    .box ul li a:hover {color: white;}
+
+    .wd {
+      width: 300px;
+      height: 539px;
+      background-color: black;
+      opacity: 0.9;
+      padding: 55px;
+    }
+
+    .wd h1 {
+         text-align: center;
+         text-transform: uppercase;
+         font-weight: 100;
+
+    }
+
+    .wd h4 {
+         text-align: justify;
+         color: darkgray;
+         font-weight: normal;
+    }
+
+    .wd h2 {
+         text-align: center;
+         text-transform: uppercase;
+         font-weight: normal;
+         margin: 40px;
+    }
+
+    .opt form , input[type="button"]{
+      background-color: black;
+      color: white;
+      padding: 10px;
+      margin: -14px auto;
+      padding-left: 50px;
+      padding-right: 50px;
+      text-align: center;
+    }
+
+    form, input[type="button"]:hover{background-color: green;}
+
+  </style>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Rodelio's Kitchen</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+
+   <div class="box">
+
+    <ul type="none">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="https://www.delish.com/cooking/menus/">Menu</a></li>
+      <li><a href="onlineorder.html">Online Order</a></li>
+      <li><a href="picture.html">Pictures</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    
+   </div>
+
+   <div class="wd">
+
+    <h1>Welcome</h1>
+    <h4>Hi! My name is Rodelio S. Dahunos, I am here to assist your order through my sample website in my subject in website development. It's my great pleasure to serve you.</h4>
+    <h2>Reservation</h2>
+    <div class="opt">
+      <form action="" method="post">
+        
+        <a href="https://www.facebook.com/rodelio.dahunos"><input type="button"value="Starter Now"></a>
+        
+        
+      </form>
+      
+    </div>
+   </div>
+  
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Rodelio's Kitchen</title>
+	<link rel="stylesheet" href="">
+	<style type="text/css" media="screen">
+
+			.oo h1 { 
+					text-align: center;
+			   		text-transform: uppercase;
+			   		font-weight: 100;
+
+			 }
+
+			 .oo p {
+			 		text-align: justify;
+			        color: gray;
+			        font-weight: normal;
+			        margin-left: 100px;
+			        margin-right: 100px;
+			 }
+		
+	</style>
+
+
+</head>
+<body>
+
+	<div class="oo">
+
+	  <h1>Food Company</h1>
+      <p>Click here <a href="https://www.jollibee.com.ph/">jollibee</a> your typical food blog. We are not all about bitchy waitresses or server rants either. Our goal is to help improve your dining experiences by giving you the tools you need to engage with waitstaff more productively. Becoming a more conscientious diner will result in better service and more successful meals.</p>
+
+      <p>Click here <a href="https://www.mcdelivery.com.ph/food-menus">Mc Donald.ph</a> works with restaurant owners to help them learn how to market to potential customers effectively. Specialised in helping Restaurant owners to find new customers & turn them into repeat customers with our free marketing tools. This site is is filled with topical news and trends for the restaurant industry.</p>
+
+      <p>Click here <a href="https://www.manginasal.com/">Mang Inasal</a>A news-based journal on the Boston restaurant scene. Boston's Hidden Restaurants is an online restaurant guide that concentrates on little-known dining spots around Boston and New England.</p>
+
+      <p>Click here <a href="https://gerrysgrill.com/ph/"> Gerry's Grill.ph</a>GreatKosherRestaurants.com is packed with restaurant photos, menus, information and news of the restaurant industry as well as weekly specials and events.</p>
+		
+	</div>
+
+	
+	
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Rodelio's Kitchen</title>
+	<link rel="stylesheet" href="">
+
+	<style>
+
+		.ms {
+
+			margin-left: 50px;
+			margin-right: 50px;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<div class="ms">
+
+	 	<h1>Pictures</h1>
+	 	<img src="Image/picture1.jpg" width="305" height="280" alt="">
+	 	<img src="Image/picture2.jpg" width="305" height="280"alt="">
+	 	<img src="Image/picture3.jpg" width="305" height="280"alt="">
+	 	<img src="Image/picture4.jpg" width="305" height="280"alt="">
+	 	<img src="Image/picture5.jpg" width="305" height="280"alt="">
+	 	<img src="Image/picture6.jpg" width="305" height="280"alt="">
+	 	<img src="Image/picture7.jpg" width="305" height="280"alt="">
+	 	<img src="Image/picture8.jpg" width="305" height="280"alt="">
+	 	<img src="Image/picture9.jpg" width="305" height="280"alt="">
+	 	<img src="Image/picture10.jpg" width="305" height="280"alt="">
+	 	<img src="Image/picture11.jpg" width="305" height="280"alt="">
+	 	<img src="Image/picture12.jpg" width="305" height="280"alt="">
+	 
+	 </div>
+	
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Rodelio's Kitchen</title>
+	<link rel="stylesheet" href="">
+	<style>
+		
+		.wrapper video {
+
+					margin-left: 0 auto;
+				    width: 350px;
+				    margin-left: 73px;
+				    margin-right: 0px;
+
+
+	</style>
+</head>
+<body>
+
+	 <div class="wrapper">
+
+	 	<h1>Videos</h1>
+	 	<video controls>
+	 	<source src="videos/video1.mp4"  type="video/mp4">
+	 		your browser does not support mp4 videos, change browser!
+	 		
+	 	</video>
+
+	 	<video controls>
+	 	<source src="videos/video2.mp4"  type="video/mp4">
+	 		your browser does not support mp4 videos, change browser!
+	 		
+	 	</video>
+
+	 	<video controls>
+	 	<source src="videos/video3.mp4"  type="video/mp4">
+	 		your browser does not support mp4 videos, change browser!
+	 		
+	 	</video>
+
+	 	<video controls>
+	 	<source src="videos/video4.mp4"  type="video/mp4">
+	 		your browser does not support mp4 videos, change browser!
+	 		
+	 	</video>
+
+	 	<video controls>
+	 	<source src="videos/video5.mp4"  type="video/mp4">
+	 		your browser does not support mp4 videos, change browser!
+	 		
+	 	</video>
+
+	 	<video controls>
+	 	<source src="videos/video6.mp4"  type="video/mp4">
+	 		your browser does not support mp4 videos, change browser!
+	 		
+	 	</video>
+
+	 	<p>Click here <a href="https://www.youtube.com/watch?v=X_qo3lnRS1k">youtube.com</a></p>
+
+	 </div>
+	
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Rodelio's Kitchen</title>
+	<link rel="stylesheet" href="">
+	<style>
+
+		.nm h1 { 
+				text-align: center;
+				font-size: 42px;
+				font-family: latha;
+				color: blue;
+				height: 50px;
+
+		 }
+
+		 .nm h2 {
+		 	     text-align: center;
+				 font-size: 20px;
+				 font-family: latha;
+				 color: blue;
+				 height: 50px;
+				 border: solid;
+				 border-color: gold;
+				 margin-left: 500px;
+				 margin-right: 500px;
+				 padding-top: 1px;
+				 padding-bottom: 30px;
+		 }
+
+
+		
+	</style>
+</head>
+<body>
+
+	<div class="nm">
+
+		<h1 style="font-family:verdana;">Hotline Number</h1>
+		<h2 style="font-family:arial;">Globe subsciber <p style="color:Tomato;">+63 936 109 5630</p></h2>
+		<h2 style="font-family:arial;">Smart subscriber<p style="color:Tomato;">+63 912 322 1000</p></h2>
+		
+	</div>
+	
+</body>
+</html>
